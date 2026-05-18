@@ -293,7 +293,7 @@ _Institutional archives and publishers’ own online archives are not valid._
 	* Diadorim
 	* Dulcinea
 	* Mir@bel
-	* Sherpa/Romeo
+	* Open Policy Finder (formerly Sherpa Romeo)
 	* Other (including publisher's own site)
 	* The journal has no repository policy
     
