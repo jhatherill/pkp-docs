@@ -316,6 +316,36 @@ _Institutional archives and publishers’ own online archives are not valid._
 
 OJS can generate DOIs as part of the metadata and allows deposit of those DOIs directly to CrossRef, DataCite, or mEDRA (with respective membership) . See the [DOI Plugin Guide](https://docs.pkp.sfu.ca/doi-plugin/en/) and [the Crossref OJS Manual](https://docs.pkp.sfu.ca/crossref-ojs-manual/en/) for more details on how to set up DOIs in OJS.
     
+## After you are accepted
+Consider sending your metadata to DOAJ by enabling the DOAJ Export Plugin. By exporting your article metadata to DOAJ you: 
+
+* Increase the visibility of and discoverability of your journal content
+* Promote the open circulation of metadata in global indexing services 
+* Demonstrate your journal's commitment to initiatives such as the Barcelona Declaration on Open Research Information
+
+### About the DOAJ Export Plugin 
+This plugin allows journals to manually export article metadata for the Directory of Open Access Journals (DOAJ) or automatically register article metadata with the DOAJ using an API Key. A journal must be indexed in the to be DOAJ to make use of this plugin. 
+
+### Using the DOAJ Export Plugin
+* It is recommended to set up the plugin to automatically register your article metadata with the DOAJ. Doing so will save editorial time and ensure consistency in the delivery of metadata. 
+* To set up the plugin for automatic registration you will first need to obtain an API key.
+
+### Getting an API
+* To find your DOAJ API key, access your member account in DOAJ and look for the API key in your account information. If an institutional publishing partner or hosting service applied for DOAJ on your behalf, you will need to contact them to set up the plugin for you.
+
+### Set up the DOAJ Export Plugin
+* In your Editorial Dashboard, under Tools > Import/Export select DOAJ Export Plugin.
+* Enter your DOAJ member API and click the box to enable automatic registration.
+  ![Settings tab with redacted API key and automatic depoit box checked.](./assets/DOAJ_export_setup_API.png)
+
+* The articles tab will display which articles have been registered
+   ![Articles tab demonstrating registered and unregistered articles](./assets/DOAJ_export_manual.png)
+  
+* For any articles that were not registered automatically, select which ones you would like to mark for export and registration and click Register.
+ ![Articles tab with options for export and registration.](./assets/DOAJ_mark_for_registration.png)
+
+* You can also manually export the article metadata from OJS and upload it to your DOAJ Publisher Dashboard
+  
 ## Upgrading from OJS 2 to 3
 
 If you have upgraded from OJS 2 to OJS 3 after your DOAJ application was accepted, you will need to do the following:
